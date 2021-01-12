@@ -1,7 +1,7 @@
 function requset(data){
     // 设置默认url
     const url  = 'https://api.apishop.net/common/dogFamily/'
-    
+
     return new Promise((resolve,reject)=>{
         let xhr = new XMLHttpRequest(); // 建立请求
         // const url  = 'https://api.apishop.net/common/dogFamily/'
@@ -19,7 +19,7 @@ function requset(data){
         xhr.send(data.XML)
 
 
-        
+        ~
     })
 }
 
