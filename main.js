@@ -18,8 +18,6 @@ function requset(data){
         // 请求的内容，如果是GET请求则传空
         xhr.send(data.XML)
 
-
-        ~
     })
 }
 
